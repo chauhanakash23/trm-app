@@ -1,1 +1,21 @@
-
+Product Name,Description,Category Hint,Vendor,Lifecycle Status
+PostgreSQL,A powerful open-source object-relational database system,Database,PostgreSQL Global Development Group,Active
+TensorFlow,An end-to-end open source platform for machine learning,ML Framework,Google,Active
+MongoDB,A document-oriented NoSQL database,Database,MongoDB Inc.,Active
+MySQL,An open-source relational database management system,Database,Oracle,Active
+PyTorch,An open source machine learning framework,ML Framework,Facebook,Active
+Elasticsearch,A distributed search and analytics engine,Database,Elastic,Active
+Apache Kafka,A distributed event streaming platform,Messaging,Apache Software Foundation,Active
+Redis,An in-memory data structure store,Database,Redis Labs,Active
+SQLite,A C-language library that implements a small SQL database engine,Database,SQLite Consortium,Active
+Neo4j,A graph database management system,Database,Neo4j Inc.,Active
+React,A JavaScript library for building user interfaces,Frontend Framework,Facebook,Active
+Kubernetes,An open-source container orchestration system,Container,Cloud Native Computing Foundation,Active
+Docker,A platform for developing and running applications in containers,Container,Docker Inc.,Active
+Angular,A TypeScript-based web application framework,Frontend Framework,Google,Active
+Node.js,A JavaScript runtime built on Chrome's V8 JavaScript engine,Runtime,OpenJS Foundation,Active
+Python,A programming language for general-purpose programming,Language,Python Software Foundation,Active
+Java,A high-level programming language,Language,Oracle,Active
+Wireshark,A network protocol analyzer,Network Analysis,,Active
+Nmap,A network scanner used to discover hosts and services,Security Scanner,Nmap Project,Active
+Metasploit,A penetration testing framework,Security Tool,Rapid7,Deprecated
