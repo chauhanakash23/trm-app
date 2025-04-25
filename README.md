@@ -39,7 +39,7 @@ streamlit run app.py
 
 For a quick demo, you can try the application online using Streamlit Sharing:
 
-[Open TRM Modernization Tool Demo](https://yourusername-trm-modernization-tool.streamlit.app)
+https://trm-modernization-app.el.r.appspot.com/
 
 ## Project Structure
 
@@ -54,7 +54,6 @@ For a quick demo, you can try the application online using Streamlit Sharing:
   - `software_list.csv`: Default dataset
   - `complex_software_list.csv`: More complex dataset to test LLM vs rule-based classification
 
-## Development
 
 ### Testing Different Classification Methods
 
@@ -62,25 +61,6 @@ The repository includes two datasets for testing:
 - `data/software_list.csv`: Basic dataset with clear keywords
 - `data/complex_software_list.csv`: More ambiguous descriptions that benefit from LLM classification
 
-To test these different datasets:
-1. Rename the dataset you want to use to `software_list.csv`
-2. Run the application and use the "Use default dataset" option
-
-### Adding Custom Domains
-
-To add custom TRM domains and subdomains, edit the `config.py` file:
-
-```python
-TRM_DOMAINS_SUBDOMAINS = {
-    "Your New Domain": ["Subdomain 1", "Subdomain 2"],
-    # ...existing domains...
-}
-
-CLASSIFICATION_KEYWORDS = {
-    "Your New Domain": ["keyword1", "keyword2", "keyword3"],
-    # ...existing keywords...
-}
-```
 
 ## License
 
